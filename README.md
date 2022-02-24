@@ -1,5 +1,7 @@
 # AzureAD-B2C-custom-api-to-provision-users
-Custom .NET Core API to provision B2C users
+
+**IMPORTANT**  
+This .NET Core API uses a version of Microsoft.Graph.Auth library that you can find in preview from NuGet Package. Keep in mind the library version that you will find in the code is currently deprecacted and you should not use it in production enviornment. **THIS IS ONLY FOR TESTING**
 
 First off, it would be necessary to create a new App registration in your Azure AD B2C portal. In my case, **GraphSKD** app was created with the following configuration:  
   
@@ -26,3 +28,4 @@ Ok, all is ready to open the code and type your specific app information. The in
 
 **Note**  
 _b2c-extensions-app. Do not modify. Used by AADB2C for storing user data_ is a default application that is created automatically when your Azure AD B2C tenant is created. You can view this application if you access to App registrations and click on **All applications**
+  
