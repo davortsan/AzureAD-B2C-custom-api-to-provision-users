@@ -7,4 +7,8 @@ First off, it would be necessary to create a new App registration in your Azure 
   
 ![image](https://user-images.githubusercontent.com/2305432/155539808-66bf4828-fee1-40fc-b0ab-a89e53846383.png)
   
-
+2. Create a new client secret that it will be used by the application AzureAD-B2C-custom-api-to-provision-users.    
+**Note**  
+Remember that you have to copy the value of the secret before to leave the Certificates & secrets page.  
+  
+3. 
