@@ -11,4 +11,18 @@ First off, it would be necessary to create a new App registration in your Azure 
 **Note**  
 Remember that you have to copy the value of the secret before to leave the Certificates & secrets page.  
   
-3. 
+3. Access to **API permissions** and add the following ppermissions to this application:  
+  
+![image](https://user-images.githubusercontent.com/2305432/155540608-10125402-54ab-4e94-8b68-8fb8416edb96.png)
+  
+**Note**  
+Check that it is necessary to click on _Grant admin consent for <your_company>_. Review that all permissions are showed with a verified icon in the Status column.  
+
+Ok, all is ready to open the code and type your specific app information. The information that you are going to need is:  
+  
+- ApplicationID  
+- Client secret value  
+- _b2c-extensions-app. Do not modify. Used by AADB2C for storing user data_ application id  
+
+**Note**  
+_b2c-extensions-app. Do not modify. Used by AADB2C for storing user data_ is a default application that is created automatically when your Azure AD B2C tenant is created. You can view this application if you access to App registrations and click on **All applications**
